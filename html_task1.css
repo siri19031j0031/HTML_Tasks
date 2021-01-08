@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
     margin:0;
     padding:0;
@@ -21,91 +20,43 @@
     overflow: hidden;
     margin-right: 30px;
     width: 255px;
-    height: 390px;
-    border-radius:17px;
+    height: auto;
+    border-radius:9px;
     align-items: center;
-    border-bottom:black;
+    border-bottom:black; 
     border-style: solid;
     border-bottom-width: 0.13em;
 }
 
-/* .title{
+.title {
     position: relative;
     display:flex;
     width:255px;
-    height:21px;
-    background-color:#707070;
+    height:25px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     padding-top: 1%;
-    text-shadow: -1px -1px white, 1px 1px #333    
-} */
-
-#c1 .title{
-    position: relative;
-    display:flex;
-    width:255px;
-    height:21px;
-    background-color:#707070;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
-    text-shadow: -1px -1px white, 1px 1px #333   
+    text-shadow: 0.2px .02px white, 0.5px 0.5px #333   
 }
-.title1{
-    position: relative;
-    display:flex;
-    width:255px;
-    height:21px;
+
+#c1 .title {
+    background-color:#707070;
+}
+
+#c2 .title {
     background-color:#2F9D89;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
-    text-shadow: -1px -1px white, 1px 1px #333    
 }
 
-.title2{
-    position: relative;
-    display:flex;
-    width:255px;
-    height:21px;
-    background-color:#0091BB;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
-    text-shadow: -1px -1px white, 1px 1px #333    
+#c3 .title {
+    background-color:#0091BB; 
 }
 
-.title3 {
-    position: relative;
-    display:flex;
-    width:255px;
-    height:21px;
+#c4 .title {
     background-color:#E2536B;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
-    text-shadow: -1px -1px white, 1px 1px #333    
 }
 
 .content{
@@ -128,133 +79,85 @@
     width: 255px;
     height:144px;
     text-align: center;
+    padding-top: 18%;
+    color:#F2F2F2;
+    font-family: Arial;   
+}
+
+#c1 .price {
     background-color:#979797;
-    padding-top: 18%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: -1px -1px white, 1px 1px #333  
-    
 }
 
-.price1{
-    position: relative;
-    width: 255px;
-    height:144px;
-    text-align: center;
+#c2 .price {
     background-color:#3DB49E;
-    padding-top: 18%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: -1px -1px white, 1px 1px #333  
-
 }
 
-.price2{
-    position: relative;
-    width: 255px;
-    height:144px;
-    text-align: center;
+#c3 .price {
     background-color:#48AECB;
-    padding-top: 18%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: -1px -1px white, 1px 1px #333 
 }
 
-
-.price3{
-    position: relative;
-    width: 255px;
-    height:144px;
-    text-align: center;
+#c4 .price {
     background-color:#E78293;
-    padding-top: 18%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: -1px -1px white, 1px 1px #333 
-}
-.price span{    
-    font-size: 3rem;
-    font-style: bold;
 }
 
-.price1 span{    
-    font-size: 3rem;
+.price span{    
+    font-size: 50px;
     font-style: bold;
-}
-.price2 span{    
-    font-size: 3rem;
-    font-style: bold;
-}
-.price3 span{    
-    font-size: 3rem;
-    font-style: bold;
+    text-shadow: 0.2px .02px white, 0.5px 0.5px #333;
 }
 
 .footer{
     width: 255px;
     height: 23px;
     text-align: center;
+    padding-top: 2%;
+    color:#F2F2F2;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+#c1 .footer {
     background-color:#707070 ;
-    padding-top: 2%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-shadow: -1px -1px white, 1px 1px #333  
 }
 
-.footer1{
-    width: 255px;
-    height: 23px;
-    text-align: center;
+#c2 .footer {
     background-color:#2F9D89;
-    padding-top: 2%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-shadow: -1px -1px white, 1px 1px #333;
 }
 
-.footer2{
-    width: 255px;
-    height: 23px;
-    text-align: center;
+#c3 .footer {
     background-color:#0091BB ;
-    padding-top: 2%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-shadow: -1px -1px white, 1px 1px #333;
 }
 
-.footer3{
-    width: 255px;
-    height: 23px;
-    text-align: center;
+#c4 .footer {
     background-color:#E2536B ;
-    padding-top: 2%;
-    color:#F2F2F2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-shadow: -1px -1px white, 1px 1px #333;
-}
-#br{
-    height: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-/* .arrow1{
-    overflow:hidden;
-    widows:10px;
-    height:10px;
-    content:"";
-    background-color:#707070;
-    border-top:10px solid #707070  ;
-    border-bottom:10px solid #707070 ;
-    /* border-left:10px solid transparent;  */
-    /* border-right:10px solid transparent;  */
-    /* transform: rotate(45deg);
-} */ 
+ .bottom-arrow::after {
+    content:'';
+    position: fixed;
+    border-top: 10px solid #707070 ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    z-index: 9;
+}
+
+#c2 .bottom-arrow::after {
+    border-top: 10px solid #2F9D89 ;
+}
+
+#c3 .bottom-arrow::after {
+    border-top: 10px solid #0091BB ;
+}
+
+#c4 .bottom-arrow::after {
+    border-top: 10px solid #E2536B;
+}
+
+.bottom-arrow1::after {
+    content:'';
+    position: fixed;
+    border-top: 10px solid #F2F2F2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    z-index: 9;
+}
