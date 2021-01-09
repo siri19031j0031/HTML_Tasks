@@ -20,7 +20,7 @@
     overflow: hidden;
     margin-right: 30px;
     width: 255px;
-    height: auto;
+    height: 370px;
     border-radius:9px;
     align-items: center;
     border-bottom:black; 
@@ -32,7 +32,7 @@
     position: relative;
     display:flex;
     width:255px;
-    height:25px;
+    height:27px;
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -108,7 +108,7 @@
 
 .footer{
     width: 255px;
-    height: 23px;
+    height: 21px;
     text-align: center;
     padding-top: 2%;
     color:#F2F2F2;
@@ -133,31 +133,34 @@
 }
 
  .bottom-arrow::after {
-    content:'';
-    position: fixed;
-    border-top: 10px solid #707070 ;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    z-index: 9;
+    content:"";
+    position: absolute;
+    border-top: 9px solid #707070;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    margin-left: -10px;
+    z-index: 1;
+    
 }
 
 #c2 .bottom-arrow::after {
-    border-top: 10px solid #2F9D89 ;
+    border-top: 9px solid #2F9D89 ;
 }
 
 #c3 .bottom-arrow::after {
-    border-top: 10px solid #0091BB ;
+    border-top: 9px solid #0091BB ;
 }
 
 #c4 .bottom-arrow::after {
-    border-top: 10px solid #E2536B;
+    border-top: 9px solid #E2536B;
 }
 
 .bottom-arrow1::after {
-    content:'';
-    position: fixed;
-    border-top: 10px solid #F2F2F2;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    z-index: 9;
+    content:" ";
+    position: absolute;
+    border-top: 9px solid #F2F2F2;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    margin-left: -10px;
+    z-index: 1;
 }
